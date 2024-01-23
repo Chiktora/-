@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Shapes
 {
-    public interface IDrawable
+    internal interface IDrawable
     {
         void Draw();
     }

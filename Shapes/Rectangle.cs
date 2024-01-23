@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Shapes
 {
-    public class Rectangle:IDrawable
+    internal class Rectangle:IDrawable
     {
         private int width;
 
