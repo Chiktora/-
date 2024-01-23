@@ -16,7 +16,7 @@ namespace Shapes
         public int Radius
         {
             get { return radius; }
-            set { radius = value; }
+            private set { radius = value; }
         }
 
         public void Draw()

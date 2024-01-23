@@ -11,7 +11,7 @@ namespace Shapes
         public int Width
         {
             get { return width; }
-            set { width = value; }
+            private set { width = value; }
         }
 
         private int height;
@@ -19,7 +19,7 @@ namespace Shapes
         public int Height
         {
             get { return height; }
-            set { height = value; }
+            private set { height = value; }
         }
 
 
